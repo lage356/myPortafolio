@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,700;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: large; 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-text: #2889a9a6;
+    --dark-blue: #2720ae;
+    --mid-blue: #478adb;
+}
+
+nav{
+    background-color: rgba(6, 96, 126, 0.562);
+   
+}
+nav ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style-type:none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration:none;
+    color: #151515;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    
+
+}
+
+nav a:hover { 
+    color: rgb(175, 211, 236);
+}
+
+
+main {
+    background-color: #b5aeaea6;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+img {
+  
+    width: 400px;
+}
+
+.about-me{
+    border: 10px solid black;
+    padding:20px;
+}
+
+.work {
+    border: 10px solid green;
+    padding: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact-me {
+    border: 10px solid yellow;
+}
+
+
+
+footer {
+    border: 10px solid blue;
+}
+
+
+/* @media screen and (min-width:768px) {
+ 
+
+.about-me {
+
+    display: flex;
+    padding: 20px;
+
+}
+
+.about-me h2 {
+    justify-content: space-around;
+    margin-right: 100px;
+
+}
+
+.about-me p {
+    flex-wrap: wrap;
+}
+
+} */
+
+
