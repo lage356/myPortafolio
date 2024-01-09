@@ -1,6 +1,12 @@
 # myPortafolio
 
-myPortafolio is a website which contains all my projects to show my work to everyone
+This Portafolio is a website which contains all my projects to show my work to everyone
+
+## Features
+
+- ** About section: ** Sharing information about me, my skills
+- ** work section: ** Sharing three of most important projects
+- ** contact section: ** Contact section with my contac information 
 
 ## Installation
 
